@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.hero {
+  background-color: #e5e7eb;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.grade-section {
+  padding: 40px 0;
+  background: white;
+}
+
+.grade-section h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grade-card {
+  background: #f1f5f9;
+  border-left: 5px solid #2563eb;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.grade-card h4 {
+  margin: 0 0 10px;
+}
+
+.grade-card ul li {
+  padding: 4px 0;
+}
+
+.standard {
+  font-style: italic;
+  color: #555;
+  margin-top: 10px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.how-it-works {
+  background-color: #f3f4f6;
+  padding: 40px 0;
+}
+
+.how-it-works ol {
+  max-width: 600px;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
